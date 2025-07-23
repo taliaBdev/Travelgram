@@ -24,3 +24,44 @@ nav ul li:last-child img {
     border-radius: 50%
     ;
 }
+
+header {
+    display: flex;
+    padding: 32px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.profile > div {
+    max-width: 380px;
+}
+
+.profile h1 {
+    font: var(--text-lg);
+    color: var(--text-primary);
+    margin-bottom: 8px;
+}
+.profile p {
+    font: var(--text-md);
+}
+
+.info ul{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 280px;
+
+    list-style: none;
+}
+
+.info li{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
